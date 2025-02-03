@@ -1,0 +1,22 @@
+{
+  "name": "supabase-schema-exporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "bin": {
+    "supabase-schema-export": "./index.js"
+  },
+  "keywords": ["supabase", "schema", "export", "cursor"],
+  "author": "",
+  "license": "ISC",
+  "description": "A CLI tool to export Supabase schema information for Cursor",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.1"
+  }
+}
