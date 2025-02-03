@@ -10,8 +10,12 @@
   "bin": {
     "supabase-schema-export": "./index.js"
   },
-  "keywords": ["supabase", "schema", "export", "cursor"],
-  "author": "",
+  "keywords": ["supabase", "schema", "export", "cursor", "json"],
+  "author": "Piotr Dynia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiotrDynia/supabase-schema-exporter"
+  },
   "license": "ISC",
   "description": "A CLI tool to export Supabase schema information for Cursor",
   "dependencies": {
